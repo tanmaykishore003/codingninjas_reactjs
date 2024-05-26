@@ -1,0 +1,20 @@
+const handlePizzaClick = () => {
+    favouriteFood = food.pizza;
+    rootElement.render(<App />);
+};
+const handleBurgerClick = () => {
+    favouriteFood = food["burger"];
+    rootElement.render(<App />);
+};
+const handlePastaClick = () => {
+    favouriteFood = food.pasta;
+    rootElement.render(<App />);
+};
+const handleSushiClick = () => {
+    favouriteFood = food.sushi;
+    rootElement.render(<App />);
+};
+const handleChickenBiryaniClick = () => {
+    favouriteFood = food.chickenBiryani;
+    rootElement.render(<App />);
+};
