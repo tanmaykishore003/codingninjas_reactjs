@@ -1,0 +1,17 @@
+/* Write code for your CSS here */
+
+body {
+    text-align: center;
+}
+
+.container li {
+    display: inline-block;
+    list-style: none;
+}
+
+.skill {
+    margin: 50px;
+    padding: 10px;
+    background-color: powderblue;
+    border-radius: 5px;
+}
